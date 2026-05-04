@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project presents the design, simulation, and performance evaluation of a compact 4-port MIMO microstrip patch antenna for 5G millimeter-wave applications operating at 28 GHz. The antenna is developed using CST Microwave Studio on a Rogers RT/duroid 5880 substrate, selected for its low dielectric loss and high-frequency stability. The design focuses on achieving high gain, wide bandwidth, strong isolation, and high radiation efficiency while maintaining a compact footprint suitable for modern wireless systems.
+This project presents the design, simulation, and performance evaluation of a compact 4-port MIMO microstrip patch antenna for 5G millimeter-wave applications operating at 28 GHz. The antenna is developed using CST Microwave Studio on a Rogers RT/duroid 5880 substrate, selected for its low dielectric loss and high-frequency stability. The design focuses on achieving high gain, wide bandwidth, strong isolation, and high radiation efficiency while maintaining a compact footprint suitable for modern wireless systems.ML Algorithm is used to predict the directivity of Antenna in oreder to reduce computational resrouces and time required for long simulations for such complex design in CST Software.
 
 ## Key Performance Parameters
 
@@ -15,7 +15,7 @@ Key performance parameters including S-parameters (S11), VSWR, gain, directivity
 
 ## Machine Learning Integration
 
-In addition to conventional electromagnetic simulation, this project integrates machine learning techniques to enhance the antenna design process. Regression-based ML models, including Random Forest and other algorithms, are trained on simulation data to predict key antenna parameters such as directivity and gain. This approach significantly reduces computational complexity and simulation time while maintaining high prediction accuracy.
+In addition to conventional electromagnetic simulation, this project integrates machine learning techniques to enhance the antenna design process. Regression-based ML model Gradient Boost (XGBoost) is  trained on simulation data of 320 Iterations to predict  as directivity of the MIMO Antenna. This approach significantly reduces computational complexity and simulation time while maintaining high prediction accuracy.
 
 ## Methodology & Contribution
 
@@ -44,9 +44,8 @@ Final-Year-Project-FYP-UET-Peshawar/
 
 ## Author
 
-**Adil Shah**  
+**Syed Adil Shah**  
 Final Year Project - University of Engineering and Technology (UET) Peshawar
 
 ## License
-
-[Add your license information here]
+Subjected to demand/Permisible to use for research Work/Academic Practices.

@@ -20,6 +20,26 @@ In addition to conventional electromagnetic simulation, this project integrates 
 ## Methodology & Contribution
 
 The combination of advanced antenna design and data-driven optimization demonstrates an efficient methodology for next-generation wireless system development. This work contributes toward improving design efficiency, performance optimization, and practical implementation of compact MIMO antennas for 5G communication systems.
+**Step 1: Designing In CST Software**
+Designed a single patch MSPA in CST
+<img width="436" height="413" alt="image" src="https://github.com/user-attachments/assets/6bc667d1-7896-4b11-998b-c31278c47167" />
+simulated and tested its performance,proceeded to dual patch-single feed design
+
+<img width="172" height="123" alt="image" src="https://github.com/user-attachments/assets/71d09db0-4f6e-4248-90b4-7a435cfdb765" />
+
+
+Then final design of 4-Port MIMO was designed.
+
+<img width="439" height="433" alt="image" src="https://github.com/user-attachments/assets/8557d2d8-67e5-46d6-a23a-878fadad4c70" />
+---------------------------------------------------------------------------------------------------------------------------------------------
+<img width="525" height="534" alt="image" src="https://github.com/user-attachments/assets/4385ce36-1ac8-4efc-91cf-955b73c59db6" />
+
+**Step 2:Data Set Collection**
+We gathered a CSV file with 320 iterations of final design,each simulations took on average 3 hours to complete and give result for different parameters ,radiation patterns of design.
+
+**Step 3:Model Training and Testing**
+Trained XGBoost model on dataset and predicted its accuracy for prediction of directivity of antenna,it yielded 98.5% accuracy.
+
 
 ## Technologies Used
 
